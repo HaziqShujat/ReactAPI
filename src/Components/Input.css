@@ -1,0 +1,35 @@
+.fields {
+  padding: 1%;
+  font-size: 2vw;
+  border: none;
+  border-radius: 2%;
+  width: 50vw;
+}
+
+.fields:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease;
+}
+
+.btn {
+  padding: 2% 4%;
+  background: gray;
+  color: white;
+  border: none;
+  border-radius: 14%;
+  cursor: pointer;
+  margin-top: 1%;
+}
+
+.btn:hover {
+  background: rgb(38, 32, 39);
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
